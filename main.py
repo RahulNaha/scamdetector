@@ -33,7 +33,7 @@ with open('model.pkl', 'rb') as m:
     model = pickle.load(m)
 
 # Streamlit app
-st.title("Email/SMS Spam Classifier")
+st.title("SMS Spam Classifier")
 
 input_sms = st.text_area("Enter the message")
 
